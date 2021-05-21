@@ -1,6 +1,6 @@
 /** @format */
 
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -8,5 +8,7 @@
     body {
         @apply bg-[#06202A] text-gray-300   
     }
-}
-
+} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
