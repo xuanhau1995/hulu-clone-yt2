@@ -1,5 +1,12 @@
 {
   "/_app": "pages/_app.js",
+  "/api/hello": "pages/api/hello.js",
+  "/components/Header/Header": "pages/components/Header/Header.js",
+  "/components/Header/HeaderItem": "pages/components/Header/HeaderItem.js",
+  "/components/Nav/Nav": "pages/components/Nav/Nav.js",
+  "/components/Results/Results": "pages/components/Results/Results.js",
+  "/components/Results/Thumnail": "pages/components/Results/Thumnail.js",
+  "/": "pages/index.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js"
 }

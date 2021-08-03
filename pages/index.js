@@ -6,17 +6,18 @@ import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
 import Results from "./components/Results/Results";
 import requests from "../utils/requests";
+import fetch from "isomorphic-fetch";
 
-export default function Home({results}) {
+export default function Home({ results }) {
   return (
     <div>
       <head>
         <title>Hulu 2.0</title>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <Header />
       <Nav />
-      <Results results={results}/>
+      <Results results={results} />
     </div>
   );
 }
