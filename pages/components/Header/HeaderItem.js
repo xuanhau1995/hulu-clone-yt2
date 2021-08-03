@@ -17,10 +17,8 @@
 // export default HeaderItem;
 import React from "react";
 
-export const HeaderItem = () => {
-  return (
-    <div>
-      <h1>sdjbkuhsva</h1>
-    </div>
-  );
+const HeaderItem = () => {
+  return <div>ksjabdkahsvdk</div>;
 };
+
+export default HeaderItem;
